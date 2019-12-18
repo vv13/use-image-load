@@ -1,6 +1,6 @@
 {
-  "name": "init-ts-npm",
-  "version": "1.0.0",
+  "name": "use-image-load",
+  "version": "0.1.0",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -11,7 +11,7 @@
   "author": "vv13 <zwhvv13@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vv13/vue-authplugin"
+    "url": "https://github.com/vv13/use-image-load"
   },
   "scripts": {
     "start": "tsc -w",
@@ -20,15 +20,22 @@
   },
   "keywords": [],
   "devDependencies": {
+    "react": "^16.8.0",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-typescript": "^7.3.3",
+    "@testing-library/react-hooks": "^3.2.1",
     "@types/jest": "^24.0.18",
     "@types/node": "^12.7.3",
     "babel-jest": "^24.9.0",
     "jest": "^24.9.0",
+    "react-test-renderer": "^16.12.0",
     "tslint": "^5.19.0",
     "tslint-config-prettier": "^1.18.0",
+    "@types/react": "^16.9.16",
     "typescript": "^3.5.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
   }
 }
